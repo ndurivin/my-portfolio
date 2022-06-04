@@ -1,0 +1,18 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Adamina&family=Poppins:wght@100;200;300;400&display=swap");
+
+/*font-family: 'Actor', sans-serif;
+    font-family: 'Adamina', serif;
+    font-family: 'Poppins', sans-serif;
+    
+    Button Color 1 = #FFAC12-+
+    Texts = #FAFF00
+    Font type: Poppins,  Actor, Adamina*/
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
