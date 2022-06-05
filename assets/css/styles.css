@@ -307,7 +307,6 @@
         justify-content: center;
         margin: auto;
         gap: 20px;
-        
     }
 
     .btn3{
@@ -323,7 +322,73 @@
        border: 4px solid #fff;
     }
 
+/* 
+    Contacts section */
 
+    .contacts{
+        margin-top: 80px;
+    }
+
+    .contactTop{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .contactBottom{
+        margin-bottom: 60px;
+    }
+
+    .formArea{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .btn5{
+        padding: 8px;
+        border-radius: 6px;
+        background-color: #FFAC12;
+        color: #000;
+        width: 200px;
+        margin-left: 750px;
+        margin-top: 10px;
+    }
+
+    textarea{
+        width: 600px;
+    }
+
+    .formTop > input{
+        text-align: center;
+        border-radius: 6px;
+        margin: 6px;
+        height: 40px;
+        width: 290px;
+    }
+
+    form > input{
+        text-align: center;
+        border-radius: 6px;
+        margin: 6px;
+        height: 40px;
+        width: 600px;
+    }
+
+    form > textarea{
+        text-align: center;
+        border-radius: 6px;
+        margin: 6px;
+        height: 100px;
+        padding-top: 40px;
+    }
+
+    .contactBottom > form{
+        padding: 10px;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+    }
 
 
 
