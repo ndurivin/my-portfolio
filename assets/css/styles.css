@@ -93,16 +93,14 @@
         margin: auto;
         display: flex;
         justify-content: space-around;
-
     }
-
     
     .heroLeft{
         margin-top: 110px;
     }
 
     .heroRight{
-        margin-top: 90px;
+        margin-top: 80px;
     }
 
     .heroRight > img{
@@ -171,6 +169,48 @@
         color: #000;
         border: #FFAC12 2px solid;
     }
+
+    /* About Section */
+
+    .about{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+        margin-top: 120px;
+    }
+
+    .aboutTitle{
+        color: #FFAC12;
+    }
+
+    .aboutText{
+        line-height: 2rem;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .btncv{
+        padding: 9px;
+        width: 200px;
+        border: none;
+        background-color: #FFAC12;
+        font-size: large;
+        color: #000;
+        border-radius: 6px;
+        margin-right: 20px;
+    }
+
+    .btncv:hover{
+        background-color: #000;
+        color: #FFAC12;
+    }
+
+
+
+
+
 
 /* Footer Section */
    .footer{
