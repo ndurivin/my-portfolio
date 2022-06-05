@@ -65,7 +65,7 @@
 
     .btn1{
         padding: 7px;
-        width: 100px;
+        width: 110px;
         border: none;
         background-color: #FFAC12;
         font-size: large;
@@ -75,13 +75,101 @@
 
     .btn1:hover{
         background-color: #fff;
-        color: #FFAC12;
+        color: #000;
     }
 
 /* Hero Section */
     .hero{
         display: flex;
         justify-content: space-around;
+        background-image: url(../img/bg.jpg);
+        background-size: cover;
+        height: 80vh;
+        margin-bottom: 50px;
+    }
+
+    .heroContainer{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    
+    .heroLeft{
+        margin-top: 110px;
+    }
+
+    .heroRight{
+        margin-top: 90px;
+    }
+
+    .heroRight > img{
+        border-radius: 50%;
+    }
+
+    .heroLeftTop > h1, h4{
+        color: #fff;
+        margin: 30px;
+    }
+
+    .rolesInfo{
+        color: #FFAC12;
+        margin-right: 15px;
+        letter-spacing: 0.1rem;
+    }
+
+    .rolesInfo1{
+        color: #fff;
+        margin-right: 15px;
+    }
+
+    .titleIntro{
+        letter-spacing: 0.1rem;
+        color: #FFAC12;
+    }
+
+    .titleName{
+        letter-spacing: 0.2rem;
+    }
+
+    .heroLeftBottom{
+        display: flex;
+        width: 300px;
+    }
+
+    .btn2{
+        padding: 9px;
+        width: 100px;
+        border: none;
+        background-color: #FFAC12;
+        font-size: large;
+        color: #fff;
+        border-radius: 6px;
+        margin-right: 20px;
+        margin-left: 30px;
+    }
+
+    .btn2:hover{
+        background-color: #fff;
+        color: #000;
+    }
+
+    .btn4{
+        padding: 10px;
+        width: 120px;
+        border: none;
+        background-color: #000;
+        font-size: large;
+        color: #FFAC12;
+        margin-right: 20px;
+    }
+
+    .btn4:hover{
+        background-color: #fff;
+        color: #000;
+        border: #FFAC12 2px solid;
     }
 
 /* Footer Section */
