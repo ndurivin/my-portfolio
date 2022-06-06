@@ -1,0 +1,2 @@
+
+myBtn = document.getElementById("myBtn");
