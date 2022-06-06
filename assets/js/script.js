@@ -1,0 +1,3 @@
+
+
+upButton = document.getElementById("myBtn");
