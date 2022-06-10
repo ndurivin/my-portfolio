@@ -1,2 +1,1 @@
 
-myBtn = document.getElementById("myBtn");
